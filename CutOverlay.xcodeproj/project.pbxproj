@@ -12,6 +12,8 @@
 		28EB7D4722E4F54700F2C634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EB7D4522E4F54700F2C634 /* Main.storyboard */; };
 		28EB7D4922E4F54800F2C634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EB7D4822E4F54800F2C634 /* Assets.xcassets */; };
 		28EB7D4C22E4F54800F2C634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28EB7D4A22E4F54800F2C634 /* LaunchScreen.storyboard */; };
+		28EB7D5422E4F55700F2C634 /* CutOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EB7D5322E4F55700F2C634 /* CutOverlayView.swift */; };
+		28EB7D5622E4FE6300F2C634 /* 10x.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 28EB7D5522E4FE6300F2C634 /* 10x.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		28EB7D4822E4F54800F2C634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28EB7D4B22E4F54800F2C634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28EB7D4D22E4F54800F2C634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28EB7D5322E4F55700F2C634 /* CutOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutOverlayView.swift; sourceTree = "<group>"; };
+		28EB7D5522E4FE6300F2C634 /* 10x.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10x.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		28EB7D4022E4F54700F2C634 /* CutOverlay */ = {
 			isa = PBXGroup;
 			children = (
+				28EB7D5522E4FE6300F2C634 /* 10x.JPG */,
 				28EB7D4122E4F54700F2C634 /* AppDelegate.swift */,
 				28EB7D4322E4F54700F2C634 /* ViewController.swift */,
 				28EB7D4522E4F54700F2C634 /* Main.storyboard */,
 				28EB7D4822E4F54800F2C634 /* Assets.xcassets */,
 				28EB7D4A22E4F54800F2C634 /* LaunchScreen.storyboard */,
 				28EB7D4D22E4F54800F2C634 /* Info.plist */,
+				28EB7D5322E4F55700F2C634 /* CutOverlayView.swift */,
 			);
 			path = CutOverlay;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				28EB7D4C22E4F54800F2C634 /* LaunchScreen.storyboard in Resources */,
 				28EB7D4922E4F54800F2C634 /* Assets.xcassets in Resources */,
 				28EB7D4722E4F54700F2C634 /* Main.storyboard in Resources */,
+				28EB7D5622E4FE6300F2C634 /* 10x.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28EB7D4422E4F54700F2C634 /* ViewController.swift in Sources */,
+				28EB7D5422E4F55700F2C634 /* CutOverlayView.swift in Sources */,
 				28EB7D4222E4F54700F2C634 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +291,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CutOverlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CutOverlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
